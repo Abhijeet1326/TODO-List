@@ -1,7 +1,7 @@
 # Todo List Application
 
 ## Technology Stack & Tools
-- Javascript (React & Testing)
+- Javascript 
 - Node
 - Express
 - Body-Parser
@@ -9,6 +9,10 @@
 
 ## Requirements For Initial Setup
 - Install [NodeJS](https://nodejs.org/en/)
+- Install [Express](https://expressjs.com/)
+- Install [EJS](https://ejs.co/)
+- Install [body-parser](https://expressjs.com/en/resources/middleware/body-parser.html)
+  
 
 ## Setting Up
 ### 1. Clone/Download the Repository
