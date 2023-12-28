@@ -3,7 +3,7 @@ import bodyParser from "body-parser";
 import mongoose from "mongoose";
 
 const app = express();
-const port = 3000;
+const PORT = process.env.PORT || 3000;;
 
 app.use('/public',express.static("public"));
 app.use(bodyParser.urlencoded({extended:true}));
@@ -89,6 +89,6 @@ app.get("/about", (req, res) => {
 
 
 
-app.listen(port, () => {
+app.listen(PORT, () => {
     console.log("Server is Live on port 3000...");
 });
